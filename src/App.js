@@ -52,6 +52,7 @@ class App extends React.Component{
           <Test2></Test2>
           <Test3></Test3>
         </div>
+        <div id="vueContainer"></div>
       </MyContext.Provider>
     )
   }

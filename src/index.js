@@ -5,6 +5,8 @@ import App from './App';
 import RouterComponent from './Router';
 import * as serviceWorker from './serviceWorker';
 
+import './micro/main'
+
 ReactDOM.render(
   <React.StrictMode>
     <RouterComponent />
