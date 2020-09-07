@@ -1,4 +1,4 @@
-import { registerMicroApps, start } from 'qiankun';
+import { registerMicroApps, setDefaultMountApp, start } from 'qiankun';
 registerMicroApps([
   // {
   //   name: 'react app', // app name registered
@@ -7,10 +7,13 @@ registerMicroApps([
   //   activeRule: '/yourActiveRule2',
   // },
   {
-    name: 'vueapp',
+    name: 'vue',
     entry: '//localhost:8098',
     container: '#vueContainer',
-    activeRule: '/',
+    activeRule: '/vue',
   },
 ]);
+
+setDefaultMountApp('/vue');
+
 start();

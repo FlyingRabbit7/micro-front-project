@@ -48,9 +48,9 @@ class App extends React.Component{
       <MyContext.Provider value={this.state.num}>
         <div onClick={this.onAdd2}>
           {/* <Test title="haha"></Test> */}
-          <button onClick={this.onAdd}>add</button>
+          {/* <button onClick={this.onAdd}>add</button>
           <Test2></Test2>
-          <Test3></Test3>
+          <Test3></Test3> */}
         </div>
         <div id="vueContainer"></div>
       </MyContext.Provider>

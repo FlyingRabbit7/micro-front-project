@@ -10,6 +10,7 @@ class RouterComponent extends React.Component{
                 <div>
                     
                     <Route exact path="/" component={App} />
+                    <Route path="/vue" component={App} />
                     {/* <Redirect to="/somewhere/else" /> */}
                     <Route path="/news" component={News} />
                     <Route path="/children" children={(obj) => {
